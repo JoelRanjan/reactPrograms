@@ -1,0 +1,159 @@
+.App{
+  color: #3c3a3a;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cardImg{
+  height: 250px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.title{
+  font-size: x-large;
+  margin-bottom: 0px;
+}
+
+.titleCon{
+  font-size: x-large;
+  margin: 10px;
+}
+.para{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+}
+
+.card{
+  display: flex;
+  width: 100vh;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 1px 1px 1px 1px #9a9999;
+  border-radius: 5px;
+}
+.box{
+  width: 100vh;
+  margin: auto;
+  box-shadow: 1px 1px 1px 1px #9a9999;
+  border-radius: 5px;
+  position: fixed;
+  padding: 10px;
+}
+.dummy{
+  width: 100vh;
+  background-color: #a8abb0;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 30vh;
+  box-shadow: 1px 1px 1px 1px #9a9999;
+  border-radius: 5px;
+}
+.short{
+  font-weight: bold;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.heading{
+  display: flex;
+  margin: 10px;
+  box-shadow: 1px 1px 1px 1px #9a9999;
+}
+.mainn{
+  position: fixed;
+  z-index: 10;
+  width: 200vh;
+  background-color: white;
+}
+
+.titleOne{
+  margin: auto;
+}
+
+.sec{
+  margin-left: 10px;
+}
+
+.main{
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+}
+.rightCon{
+  margin: auto;
+  margin-top: 60px;
+}
+.contentr{
+  margin-left: 10px;
+  margin-top: 60px;
+  padding: 10px;
+}
+.lists{
+  list-style-type: none;
+  font-size: larger;
+}
+.sidebar{
+  background-color: #3c3a3a;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 60px;
+}
+li:hover{
+  background-color: #4f5052;
+  cursor: pointer;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.mainContainerOne{
+  width: 100vh;
+}
+.mainContainerTwo{
+  width: 200vh;
+}
